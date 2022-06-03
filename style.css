@@ -1,0 +1,389 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+.maindiv {
+    background-color: lightslategray;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+.topimg{
+    display: flex;
+    background: white;
+    align-items: center;
+    flex: 1;
+    border-radius: 5px;
+
+}
+.lapmob{
+    display: flex;
+    margin-left: 5%;
+    /* justify-content: space-evenly; */
+}
+nav{
+    flex: 20;
+    align-items: flex-end;
+    
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    color: white;
+}
+.btn1{
+    display: inline-block;
+    background: white;
+    color: lightslategray;
+    padding: 8px 20px;
+    margin: 50px ;
+}
+.btn2{
+    display: inline-block;
+    background: white;
+    color: rgb(23, 148, 190);
+    padding: 8px 15px;
+    margin: 30px 0;
+}
+.btn3{
+    display: inline-block;
+    color: white;
+    padding: 8px 15px;
+    margin: 30px 0;
+}
+.btn4{
+    background: rgb(4, 66, 87);
+    display: inline-block;
+    color: white;
+    padding: 8px 15px;
+    margin: 30px 0;
+}   
+.btn8{
+    
+    display: inline-block;
+    color: white;
+    background: rgb(4, 66, 87);
+    padding: 8px 15px;
+  border-radius: 20px;
+}
+.btn9{
+    border-radius: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    color: white;
+    padding: 8px 15px;
+      
+}
+.mainbtn{
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.btn .hover{
+    background: #563434;
+}
+.btn8:hover{
+    background: rgb(4, 66, 87);
+}
+.btn9:hover{
+    background-color: rgb(4, 66, 87);
+}
+.header{
+    background:  rgb(4, 66, 87);
+}
+.header .row{
+ margin-top: 70px;
+}
+.catagories{
+    display: flex;
+}
+.flex1{
+    display: flex;
+}
+.small-container{
+        max-width: 1080px;
+}
+.col-4{
+    flex-basis: 25px;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.navbar2{
+    color: black;
+}
+.logbody{
+    margin-top: 0;
+    background-color: white;
+}
+.btn11{
+    align-items: center;
+    margin-left: 48%;
+    color:white;
+    background-color: #333;
+    font-size: 25px
+}
+.logpage{
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px solid;
+}
+.inputpage{
+    margin-right: 25%;
+    margin-left: 25%;
+    border: 1px solid;
+}
+.small5{
+    justify-content: space-evenly;
+    text-align: left;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+}
+.smalltext h3{
+    font-size: 20px;   
+}
+.logbody1 {
+    margin-top: 5%;
+    background-color: lightgrey;
+}
+.logbody2{
+    margin-top: 10%;
+    background-color: lightgrey;
+}
+.Copyright5{
+    color: gray;
+
+}
+.smalltext p{
+    font-size: 15px;
+    color: gray;
+}
+.col-4 img{
+    width: 100%;
+}
+.offer{
+    background:radial-gradient(white,lightpink);
+    margin: 80px;
+    padding: 30px 0;
+}
+.col2 .offer-img{
+    padding: 50px;
+}
+.small{
+    color: #555;
+}
+.logos{
+    display: flex;
+    background:lightslategray;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+/* ----------triple--------- */
+.triple{
+background-color: lightslategray;
+display: flex;
+padding-bottom: 15%;
+padding-top: 15%;
+align-items: center;
+justify-content: space-between;
+
+
+}
+/* ------- testimonial ----------- */
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s; 
+}
+.down2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.down2 p{
+    color: gray;
+}
+.down3{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.down3 p{
+    color: gray;
+}
+.testimonial .col-3 img{
+width: 50px;
+margin-top: 20px;
+border-radius: 50%;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #ff523b;
+}
+.col-3 p{
+  font-size: 12px;
+  margin: 12px 0;
+  color: #777;
+}
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+.row9{
+    background-color: lightslategray;
+display: flex;
+text-align: center;
+}
+.images{
+    background-color: lightslategray;
+    text-align: center;
+}
+/* ---------footer---------- */
+.container5{
+    background-color: lightslategray;
+    color: white;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+.Copyright{
+    background-color: lightslategray;
+    color: white;
+    text-align: center;
+} 
+/* --------- media query for menu --------- */
+@media only screen and (max-width: 800px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left:0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: black;
+    }
+    .mainicon{
+        display:block;
+        cursor: pointer;
+    }
+}
+/* media query for less than 600 screen size */
+@media only screen and (max-width: 600px) {
+.row{
+    text-align: center;
+}
+}
+
+
+
+form {
+    border: 5px solid #f1f1f1;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: lightslategray;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+    color: black;
+    border-radius: 5px;
+  width: auto;
+  padding: 10px 18px;
+  background-color: white;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
